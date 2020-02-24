@@ -1,6 +1,6 @@
 package pachet;
 
-public abstract class Bear {
+public abstract class Bear implements Runner{
     public Bear() {}
 
     @Override

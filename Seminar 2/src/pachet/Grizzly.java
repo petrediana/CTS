@@ -13,6 +13,7 @@ public class Grizzly extends Bear {
                 '}';
     }
 
+    @Override
     public int getSpeed() {
         return this.GRIZZLY_SPEED;
     }

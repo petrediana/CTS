@@ -7,14 +7,15 @@ public class PolarBear extends Bear{
 
     }
 
-    public int getPOLAR_SPEED() {
-        return POLAR_SPEED;
-    }
-
     @Override
     public String toString() {
         return "PolarBear{" +
                 "POLAR_SPEED=" + POLAR_SPEED +
                 '}';
+    }
+
+    @Override
+    public int getSpeed() {
+        return this.POLAR_SPEED;
     }
 }
