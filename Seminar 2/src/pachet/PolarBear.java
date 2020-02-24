@@ -1,6 +1,6 @@
 package pachet;
 
-public class PolarBear {
+public class PolarBear extends Bear{
     private final int POLAR_SPEED = 100;
 
     public PolarBear() {
